@@ -8,7 +8,7 @@ const Papa = require("papaparse");
 
 // Configure constants
 const CAMPAIGN_ID = "6718b3d5526cec686e51520c";
-const API_LIMIT = 3000;
+const API_LIMIT = 7000;
 const API_URL = `https://publicapi.intract.io/api/pv1/campaigns/${CAMPAIGN_ID}/participants?limit=${API_LIMIT}&page=1`;
 const OUTPUT_DIR = path.join(__dirname, "apiData");
 const CONVERTED_DIR = path.join(__dirname, "apiDataConverted");
